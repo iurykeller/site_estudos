@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    background-color: rgb(202, 202, 202);
+     }
+
+.cabeçalho {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    width: 12%;
+    margin-top: 10px;
+}
+
+.fonte_titulo {
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.imagens_logos {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.listas, #relação {
+    display: block;
+    display: inline;
+}
+
+.logos {
+    display: flex;
+    margin-left: auto;
+}
+
+h1 {
+    font-family: "Josefin Slab", serif;
+}
+
+.conteudo {
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.descricao {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.descricao h2 {
+    color: rgb(46, 46, 134);
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.foto{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.foto_conteudo{
+    border-radius: 13%;
+}
+
+.container{
+    background-color: rgb(201, 198, 194);
+    
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+.titulo-1{
+    
+    background-color: rgb(167, 165, 162);
+    text-align: center;
+    align-items: center;
+    font-family: "Josefin Slab", serif;
+    font-size: 10px;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 5px;
+    
+    
+}
+.sobre{
+    text-align: center;
+    align-items: center;
+    font-family: "Josefin Slab", serif;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(167, 165, 162);
+    margin: 20px;
+    
+}
+form{
+    display: grid;
+    width: 40px;
+}
+.rodapé{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 5px;
+    
+}
+#sobre_mim{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+}
